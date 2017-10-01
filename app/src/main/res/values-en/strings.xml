@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Geometric Calculator</string>
+    <string name="alturaCilindro">Cylinder height (cm):</string>
+    <string name="alturaCono">Cone height (cm):</string>
+    <string name="alturaTriangulo">Triangle height (cm):</string>
+    <string name="areas">AREAS</string>
+    <string name="baseCono">Base cone radius (cm):</string>
+    <string name="baseTriangulo">Base of the triangle (cm)</string>
+    <string name="calcular">Calculate</string>
+    <string name="cilindro">Cylinder volume</string>
+    <string name="circulo">Area of the circle</string>
+    <string name="cono">Cone Volume</string>
+    <string name="cuadrado">Area of the square</string>
+    <string name="cubo">Cube volume</string>
+    <string name="datos">Data</string>
+    <string name="error1">You must enter a data here</string>
+    <string name="error2">Data must be greater than zero</string>
+    <string name="esfera">Volume of the sphere</string>
+    <string name="lado">Side of the square (cm):</string>
+    <string name="ladoCubo">Cube side (cm):</string>
+    <string name="ladoRectangulo">" Side of the rectangle (cm):"</string>
+    <string name="mensaje_exitoso">Result saved successfully</string>
+    <string name="numero">#</string>
+    <string name="op">Operation</string>
+    <string name="radioCilindro">Cylinder radius (cm):</string>
+    <string name="radioCirculo">Circle radius (cm):</string>
+    <string name="radioEsfera">Radius of the sphere (cm):</string>
+    <string name="realizadas">OPERATIONS MADE</string>
+    <string name="resultado">Result</string>
+    <string name="title_activity_areas">Areas</string>
+    <string name="title_activity_rectangulo">Rectangle</string>
+    <string name="triangulo">Triangle area</string>
+    <string name="volumenes">VOLUMES</string>
+    <string name="rectangulo">Rectangle area</string>
+</resources>

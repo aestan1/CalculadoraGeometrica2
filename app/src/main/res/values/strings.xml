@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Calculadora Geometrica</string>
+    <string name="numero">#</string>
+    <string name="op">Operación</string>
+    <string name="datos">Datos</string>
+    <string name="resultado">Resultado</string>
+    <string name="cuadrado">Area del Cuadrado</string>
+    <string name="lado">Lado del cuadrado (cm):</string>
+    <string name="rectangulo">Area del Rectangulo</string>
+    <string name="ladoRectangulo">Lado del rectangulo (cm):</string>
+    <string name="triangulo">Area del Triangulo</string>
+    <string name="baseTriangulo">Base del triangulo (cm):</string>
+    <string name="alturaTriangulo">Altura del triangulo (cm):</string>
+    <string name="circulo">Area del Circulo</string>
+    <string name="radioCirculo">Radio del circulo (cm):</string>
+    <string name="esfera">Volumen de la Esfera</string>
+    <string name="radioEsfera">Radio de la esfera (cm):</string>
+    <string name="cono">Volumen del Cono</string>
+    <string name="baseCono">Radio Base del cono (cm):</string>
+    <string name="alturaCono">Altura del cono(cm):</string>
+    <string name="cubo">Volumen del Cubo</string>
+    <string name="ladoCubo">Lado del cubo (cm):</string>
+    <string name="cilindro">Volumen del Cilindro</string>
+    <string name="radioCilindro">Radio del cilindro (cm):</string>
+    <string name="alturaCilindro">Altura del cilindro (cm):</string>
+    <string name="areas">AREAS</string>
+    <string name="volumenes">VOLÚMENES</string>
+    <string name="error1">Debe ingresar un dato aquí</string>
+    <string name="error2">El dato debe ser mayor que cero</string>
+
+    <array name="OpcionesPrincipal">
+        <item>@string/areas</item>
+        <item>@string/volumenes</item>
+        <item>@string/realizadas</item>
+    </array>
+    <array name="OpcionesAreas">
+        <item>@string/cuadrado</item>
+        <item>@string/rectangulo</item>
+        <item>@string/triangulo</item>
+        <item>@string/circulo</item>
+    </array>
+    <array name="OpcionesVolumen">
+        <item>@string/cubo</item>
+        <item>@string/cilindro</item>
+        <item>@string/esfera</item>
+        <item>@string/cono</item>
+    </array>
+    <string name="title_activity_areas">Areas</string>
+    <string name="title_activity_rectangulo">Rectangulo</string>
+    <string name="realizadas">OPERACIONES REALIZADAS</string>
+    <string name="calcular">Calcular</string>
+    <string name="mensaje_exitoso">Resultado guardado con exito</string>
+    <string name="volver">Volver</string>
+    <string name="inicio">Inicio</string>
+
+</resources>

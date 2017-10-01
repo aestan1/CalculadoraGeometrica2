@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.andrestan1995gmail.calculadorageometrica.Resultado">
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:id="@+id/txtCilindro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/cilindro"
+            android:text="@string/resultado"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="36dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/txtCilindro"
+            android:layout_alignRight="@+id/txtCilindro"
+            android:layout_below="@+id/txtCilindro"
+            android:layout_weight="0.04"
+            android:textAlignment="center"
+            android:textSize="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:layout_alignLeft="@+id/txtResultado"
+            android:layout_alignStart="@+id/txtResultado"
+            android:layout_below="@+id/txtResultado"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/txtCajaResultado"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="100dp"
+                android:layout_weight="0.55"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnOk"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/txtResultado"
+                android:layout_alignLeft="@+id/txtValorRadio"
+                android:layout_alignRight="@+id/txtResultado"
+                android:layout_alignStart="@+id/txtValorRadio"
+                android:layout_below="@+id/txtValorRadio"
+                android:layout_marginLeft="50dp"
+                android:drawableLeft="@drawable/back"
+                android:onClick="Volver"
+                android:text="@string/volver"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="50dp"
+                android:drawableLeft="@drawable/home"
+                android:layout_weight="0.01"
+                android:onClick="Home"
+                android:text="@string/inicio" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
