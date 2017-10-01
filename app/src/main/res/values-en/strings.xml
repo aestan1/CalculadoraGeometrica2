@@ -33,4 +33,6 @@
     <string name="triangulo">Triangle area</string>
     <string name="volumenes">VOLUMES</string>
     <string name="rectangulo">Rectangle area</string>
+    <string name="inicio">Home</string>
+    <string name="volver">Back</string>
 </resources>
